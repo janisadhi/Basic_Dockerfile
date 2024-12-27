@@ -63,3 +63,4 @@ CMD ["/bin/sh", "-c", "echo hello $(whoami)"]
 - `WORKDIR /app`: Sets the working directory inside the container to `/app`.
 - `CMD ["/bin/sh", "-c", "echo hello $(whoami)"]`: Executes the shell command to evaluate and print `hello` followed by the current username (`root` by default).
 
+This project is part of [Janis Adhikari's](https://roadmap.sh/projects/basic-dockerfile)  DevOps projects.
